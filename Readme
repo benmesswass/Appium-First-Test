@@ -1,0 +1,5 @@
+in cmd:
+ cd C:\Users\PC77_Zenity\AppData\Local\Local\Android\Sdk\emulator
+ emulator -avd Pixel2
+
+ launch the code from intellij
