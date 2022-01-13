@@ -16,6 +16,8 @@ public class LocalDriver implements DriversImpl{
         DesiredCapabilities cap = this.getAndroidCapabilities();
 
         cap.setCapability("deviceName", "Pixel2");
+        cap.setCapability("platformName","Android");
+        cap.setCapability("appPackage","com.example.shop_app");
         cap.setCapability("automationName", "UiAutomator2");
 
         driver = new AndroidDriver<>(this.getWebDriverRemoteURL(), cap);

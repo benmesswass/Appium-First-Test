@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-01-13T13:10:48.401Z",
+        "start_timestamp": "2022-01-13T13:41:28.083Z",
         "line": 5,
         "name": "Login scenario",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2224700,
+              "duration": 2000300,
               "status": "passed"
             },
             "line": 6,
@@ -36,6 +36,7 @@
           },
           {
             "result": {
+              "duration": 1021000,
               "status": "passed"
             },
             "line": 9,
