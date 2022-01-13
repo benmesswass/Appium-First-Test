@@ -2,19 +2,17 @@ package fr.zenity.appium.drivers;
 
 import fr.zenity.appium.config.Properties;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public interface DriversImpl {
+public interface DriversImpl{
 
-    void close();
+   void close();
 
-    void quit();
+   void quit();
 
-    AppiumDriver<MobileElement>  getDriver();
+    AppiumDriver<?> getDriver();
 
     default DesiredCapabilities getAndroidCapabilities(){
         DesiredCapabilities cap = new DesiredCapabilities();

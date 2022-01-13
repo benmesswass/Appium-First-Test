@@ -1,0 +1,9 @@
+fr\zenity\appium\config\ApplicationProperties.class
+fr\zenity\appium\drivers\LocalDriver.class
+fr\zenity\appium\drivers\DriversImpl.class
+fr\zenity\appium\PageObjects\LoginPage.class
+fr\zenity\appium\server\AppiumServer.class
+fr\zenity\appium\Main.class
+fr\zenity\appium\config\PropertiesLoader.class
+fr\zenity\appium\config\Properties.class
+fr\zenity\appium\PageObjects\Page.class

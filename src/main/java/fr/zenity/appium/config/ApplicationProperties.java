@@ -29,10 +29,11 @@ public class ApplicationProperties {
     }
 
     public String getProxy( ){ return prop.getProperty("appium.server.proxy"); }
-/*
-* @return
- */
 
+    /*
+    * @return
+    * @return
+    */
 
     public static ApplicationProperties getInstance(){ return INSTANCE; }
 

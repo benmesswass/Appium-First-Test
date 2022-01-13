@@ -1,0 +1,3 @@
+fr\zenity\appium\steps\HomeSteps.class
+fr\zenity\appium\runner\TestRunner.class
+fr\zenity\appium\runner\BaseRunner.class

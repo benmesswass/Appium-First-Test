@@ -1,0 +1,75 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-13T13:10:48.401Z",
+        "line": 5,
+        "name": "Login scenario",
+        "description": "",
+        "id": "as-a-user-i-want-to-login-to-my-account;login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2224700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the home page",
+            "match": {
+              "location": "fr.zenity.appium.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:9)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters his",
+            "match": {
+              "location": "fr.zenity.appium.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:19)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be logged in",
+            "match": {
+              "location": "fr.zenity.appium.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:23)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@non-reg"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to login to my account",
+    "description": "",
+    "id": "as-a-user-i-want-to-login-to-my-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/test.feature",
+    "tags": [
+      {
+        "name": "@non-reg",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
