@@ -9,8 +9,8 @@ public class PropertiesConfig {
 
     private PropertiesLoader prop = PropertiesLoader.of("configuration");
 
-    private Device device;
-    private Platform mos;
+    private static Device device;
+    private static Platform mos;
 
     public PropertiesConfig(){
         String tmp;
@@ -29,9 +29,9 @@ public class PropertiesConfig {
 
     }
 
-    public Device getDevice(){ return device; }
+    public static Device getDevice(){ return device; }
 
-    public Platform getMobileOS(){ return mos; }
+    public static Platform getMobileOS(){ return mos; }
 
     public static PropertiesConfig getInstance(){ return INSTANCE; }
 

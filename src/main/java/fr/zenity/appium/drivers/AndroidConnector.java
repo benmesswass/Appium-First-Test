@@ -11,6 +11,8 @@ import java.util.Objects;
 
 public class AndroidConnector extends LocalDriver {
 
+    private AppiumDriver<MobileElement> driver;
+    
     public AndroidConnector(Device device, Platform platform){
         super();
         Objects.requireNonNull(device);
@@ -25,7 +27,7 @@ public class AndroidConnector extends LocalDriver {
         cap.setCapability("appPackage","com.example.shop_app");
         cap.setCapability("automationName","UiAutomator2");
 
-        //driver = new AndroidDriver<>( super.getWebDriverRemoteURL(), cap);
+        driver = new AndroidDriver<>( super.getWebDriverRemoteURL(), cap);
     }
 
 }

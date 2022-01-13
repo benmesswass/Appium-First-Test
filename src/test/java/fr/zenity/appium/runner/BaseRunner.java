@@ -1,6 +1,7 @@
 package fr.zenity.appium.runner;
 
 import fr.zenity.appium.config.Properties;
+import fr.zenity.appium.config.PropertiesConfig;
 import fr.zenity.appium.drivers.LocalDriver;
 import fr.zenity.appium.manager.MobileDriverManager;
 import fr.zenity.appium.server.AppiumServer;
@@ -32,8 +33,8 @@ public class BaseRunner extends AbstractTestNGCucumberTests {
         MobileDriverManager
                 .getInstance()
                 .setDriver(
-                       // Properties.configuration.getDevice(),
-                      //  Properties.configuration.getMobileOS()
+                        PropertiesConfig.getDevice(),
+                        PropertiesConfig.getMobileOS()
                 );
     }
 

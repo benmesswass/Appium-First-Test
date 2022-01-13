@@ -3,17 +3,17 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-01-13T13:41:28.083Z",
-        "line": 5,
+        "start_timestamp": "2022-01-13T14:16:57.160Z",
+        "line": 11,
         "name": "Login scenario",
         "description": "",
-        "id": "as-a-user-i-want-to-login-to-my-account;login-scenario",
+        "id": "as-a-user-i-want-to-login-to-my-account;login-scenario;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2000300,
+              "duration": 7999200,
               "status": "passed"
             },
             "line": 6,
@@ -25,24 +25,35 @@
           },
           {
             "result": {
+              "duration": 1999800,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user enters his",
+            "line": 7,
+            "name": "user enters his \"wass@gmail.com\" and his \"wass\"",
             "match": {
-              "location": "fr.zenity.appium.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:19)"
+              "arguments": [
+                {
+                  "val": "wass@gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "wass",
+                  "offset": 42
+                }
+              ],
+              "location": "fr.zenity.appium.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:14)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1021000,
+              "duration": 1006500,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "user should be logged in",
             "match": {
-              "location": "fr.zenity.appium.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:23)"
+              "location": "fr.zenity.appium.steps.HomeSteps.\u003cinit\u003e(HomeSteps.java:18)"
             },
             "keyword": "Then "
           }

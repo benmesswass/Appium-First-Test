@@ -38,7 +38,7 @@ public class LocalDriver implements DriversImpl{
         return driver;
     }
 
-    private URL getWebDriverRemoteURL(){
+    URL getWebDriverRemoteURL(){
         try{
             StringBuffer sb = new StringBuffer();
             return new URL(
